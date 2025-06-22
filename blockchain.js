@@ -30,6 +30,8 @@ class Blockchain {
   constructor() {
     this.chain = [this.createGenesisBlock()];
     this.difficulty = 5;
+    //this.difficulty=4;
+    //this.difficulty=6;
   }
 
   createGenesisBlock() {
@@ -62,3 +64,5 @@ module.exports ={
     Blockchain,
     Block,
 } ;
+
+
